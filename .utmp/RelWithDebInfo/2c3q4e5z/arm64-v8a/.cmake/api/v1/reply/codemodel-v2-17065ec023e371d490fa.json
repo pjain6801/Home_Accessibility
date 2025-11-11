@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "GameActivity",
+					"jsonFile" : "directory-GameActivity-RelWithDebInfo-f368e6d506ea21fe2607.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "GameActivity",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Unity"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "game",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "game::@d02bb112ea9f9c2ed29f",
+					"jsonFile" : "target-game-RelWithDebInfo-db8e05e581ccd3d5a1ed.json",
+					"name" : "game",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/poojajain/Documents/GitHub/Home_Accessibility/.utmp/RelWithDebInfo/2c3q4e5z/arm64-v8a",
+		"source" : "/Users/poojajain/Documents/GitHub/Home_Accessibility/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
